@@ -37,41 +37,40 @@ Replace <YOUR_API_KEY> with your actual API key.
 ## Step 2: Verify the Agent Status
 
 Once installation completes, verify that the Agent is running:
-
+``` bash
 sudo datadog-agent status
-
+```
 
 You should see output that includes:
 
 - collector
-
 - forwarder
-
 - dogstatsd
 
 If any components are marked as CRASHED or NOT RUNNING, review the log file:
-
+``` bash
 sudo less /var/log/datadog/agent.log
+```
 
 ## Step 3: Configure Basic Tags
 
 Tags help you group and filter metrics (for example, by environment or application).
 
 1. Open the main configuration file:
-
+``` bash
 sudo nano /etc/datadog-agent/datadog.yaml
-
+```
 2. Locate the tags: section and add entries such as:
-
+``` yaml
 tags:
   - env:production
   - role:web
   - region:us-east-1
-
+```
 3. Save the file and restart the Agent:
-
+``` bash
 sudo systemctl restart datadog-agent
-
+```
 ## Step 4: Confirm Data in the UI
 
 Log into your monitoring platform’s UI and:
@@ -83,16 +82,16 @@ Log into your monitoring platform’s UI and:
 ## Uninstalling the Agent (Optional)
 
 If you need to remove the Agent:
-
+``` bash
 sudo apt-get remove datadog-agent
-
+```
 
 Or on RHEL/CentOS:
-
+``` bash
 sudo yum remove datadog-agent
-
+```
 ## Notes
 
-This document is a sample authored to demonstrate structure, clarity, and technical depth for SRE and developer audiences.
+This document is a sample to demonstrate structure, clarity, and technical depth for developer audiences.
 
-I typically tailor the exact commands, configuration snippets, and troubleshooting sections to the target environment and toolset.
+
