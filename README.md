@@ -49,7 +49,7 @@ Below are sample documentation pieces similar to the work I do in enterprise env
 
 - [View PDF version](docs/SurgiSource_State_Reports_IL_ASC_Quarterly_User_Guide.pdf)
 - [View Markdown version](docs/surgisource-quarterly-guide.md)
-- [SurgiSource CPT Codes] (docs/SurgiSource_CPT-CodeSource_Install _&_Update_Guide.docx)
+- [SurgiSource CPT Codes](docs/SurgiSource_CPT-CodeSource_Install_&_Update_Guide.docx)
 
 ### 4. Process & Runbook Documentation
 
