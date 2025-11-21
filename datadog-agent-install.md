@@ -1,7 +1,6 @@
 # Installing the Monitoring Agent on Linux (Sample Doc)
 
-This sample document demonstrates my style for developer-facing infrastructure documentation.  
-It is modeled after Datadog-style installation and configuration guides.
+This sample document demonstrates a developer-facing infrastructure documentation.  
 
 ---
 
