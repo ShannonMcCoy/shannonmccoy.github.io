@@ -23,7 +23,7 @@ Run the following command on the target host:
 DD_API_KEY=<YOUR_API_KEY> DD_SITE="datadoghq.com" bash -c \
 "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script.sh)"
 Replace <YOUR_API_KEY> with your actual API key.
-
+```
 ## What this command does
 
 - Downloads the official install script from the vendor
