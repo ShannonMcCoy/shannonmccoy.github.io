@@ -52,7 +52,7 @@ Below are sample documentation pieces similar to the work I do in enterprise env
 ### Resume
 You can view or download my resume here:
 
-- [Resume (Markdown)](docs/resume/Shannon-McCoy-Kornis-Resume.md) 
+- [Resume (Markdown)](docs/Shannon-McCoy-Kornis-Resume.md) 
 ---
 
 ## 📫 Contact
