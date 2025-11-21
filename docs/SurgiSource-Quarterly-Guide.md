@@ -183,3 +183,120 @@ Incomplete cases are marked with visual indicators to help users identify data e
 
 - Red or yellow icons  
 - “Inc
+
+---
+
+## 3. Completing and Submitting Quarterly Case Data
+
+The Quarterly Reporting workflow in SurgiSource guides ASC teams through validating missing fields, completing case-level data, and confirming readiness for quarterly submission.
+
+This section outlines how to review incomplete cases, correct missing data, and verify that required information is complete before final submission.
+
+---
+
+## 3.1 Reviewing Incomplete Cases
+
+Incomplete cases appear with visual indicators in the Reporting Dashboard. These cases require attention before your quarter can be submitted.
+
+Common reasons for incomplete status include:
+
+- Missing patient demographic fields  
+- Missing procedure or diagnosis information  
+- Missing anesthesia type  
+- Missing outcomes or complication details  
+- Incorrect or incomplete coding  
+
+To review incomplete cases:
+
+1. Filter the dashboard by **Incomplete** status.  
+2. Click each case to open the **Case Details** view.  
+3. Review highlighted or required fields.  
+4. Enter the missing information.  
+5. Save the case and return to the dashboard.
+
+**Screenshot placeholder:**  
+`![Screenshot: Incomplete Case Indicators](images/incomplete-case-flags.png)`
+
+---
+
+## 3.2 Editing Required Fields
+
+Required fields vary by reporting category but commonly include:
+
+- Date of service  
+- Primary procedure  
+- Primary diagnosis code  
+- Surgeon  
+- Anesthesia type  
+- Outcome (if applicable)  
+
+Required fields may be highlighted or marked with an asterisk.  
+SurgiSource will prevent submission until these fields are populated.
+
+**Screenshot placeholder:**  
+`![Screenshot: Required Fields](images/required-fields.png)`
+
+---
+
+## 3.3 Using the Case Details Sections
+
+Case Details are organized into several tabs or sections for easier navigation:
+
+- **Patient Information**  
+- **Procedure Details**  
+- **Diagnosis Codes**  
+- **Anesthesia Information**  
+- **Outcomes / Complications**  
+- **Additional Notes**  
+
+Click each section header to expand and enter required information.
+
+**Screenshot placeholder:**  
+`![Screenshot: Case Details Tabs](images/case-details-tabs.png)`
+
+---
+
+## 3.4 Verifying Completion Status
+
+Once required data is entered:
+
+1. Save the case.  
+2. Return to the **Quarterly Dashboard**.  
+3. Confirm the case now shows **Complete** status.  
+4. Refresh the dashboard if needed using the **Refresh** button.  
+
+The dashboard completion counts update automatically:
+
+- *Complete Case Count* increases  
+- *Incomplete Case Count* decreases  
+
+---
+
+## 3.5 Bulk Reviewing Cases
+
+If your facility has high case volume, you may use bulk review workflows:
+
+- Sort by the **Status** column to group incomplete cases  
+- Apply filters to isolate specific missing fields or case types  
+- Export case lists to CSV for offline review (if enabled)  
+
+These tools help accelerate quarter-end data cleanup.
+
+---
+
+## 3.6 Pre-Submission Validation
+
+Before submitting your quarterly data, perform a final review:
+
+- Confirm **all** cases show Complete status  
+- Ensure no missing indicators or flags remain  
+- Validate that no duplicate cases or erroneous entries exist  
+- Export a final CSV/PDF copy for facility records (optional)
+
+Once validation is complete, your quarter is ready for submission.
+
+**Screenshot placeholder:**  
+`![Screenshot: Quarterly Submission Readiness](images/submission-readiness.png)`
+
+---
+
