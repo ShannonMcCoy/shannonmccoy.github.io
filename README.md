@@ -35,26 +35,19 @@ Below are sample documentation pieces similar to the work I do in enterprise env
 - **Sample REST API Reference**  
   `docs/sample-api-reference.md` (coming soon)
 
-### 2. Cloud, Security, and DR Documentation
+### 2. vCenter DR Playbook (For Choctaw Nation of Oklahoma client)
 
-- **Cloud-Based Security Controls in a Healthcare Environment**  
-  `docs/cloud-security-healthcare.md` (coming soon)
-
-- **Disaster Recovery Metrics and Reporting Overview**  
-  `docs/dr-metrics-overview.md` (coming soon)
+  `docs/vCenter.md` (coming soon)
 
 ### 3. Process & Runbook Documentation
+
+  `docs/DR-Playbook.md` (coming soon)
 
 ### 4. SurgiSource Quarterly User Guide
 
 - [View PDF version](docs/SurgiSource_State_Reports_IL_ASC_Quarterly_User_Guide.pdf)
 - [View Markdown version](docs/surgisource-quarterly-guide.md)
 - [View DOC example](docs/SurgiSource_CPT-CodeSource_Install_&_Update_Guide.docx)
-
-### 4. Process & Runbook Documentation
-
-- **Sample Incident Response Runbook**  
-  `docs/incident-response-runbook.md` (coming soon)
 
 ---
 
