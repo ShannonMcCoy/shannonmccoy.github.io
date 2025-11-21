@@ -47,7 +47,7 @@ Below are sample documentation pieces similar to the work I do in enterprise env
 
 ### 4. SurgiSource Quarterly User Guide
 
-- [View PDF version](docs/SurgiSource State Reports  IL ASC  Quarterly User Guide.pdf)
+- [View PDF version](docs/SurgiSource_State_Reports_IL_ASC_Quarterly_User_Guide.pdf)
 - [View Markdown version](docs/surgisource-quarterly-guide.md)
 
 ### 4. Process & Runbook Documentation
