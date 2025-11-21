@@ -17,7 +17,7 @@ This guide covers:
 
 ---
 
-## 2. Intended Audience
+## 1.1 Intended Audience
 
 This document is intended for:
 
@@ -27,7 +27,7 @@ This document is intended for:
 
 ---
 
-## 3. Purpose of Quarterly Reporting
+## 1.2 Purpose of Quarterly Reporting
 
 Illinois ASCs are required to submit quarterly surgical case data to maintain compliance with state reporting requirements.
 
@@ -42,7 +42,7 @@ This guide focuses on the workflow used to review, validate, and submit required
 
 ---
 
-## 4. Navigating to Quarterly Reports
+## 1.3. Navigating to Quarterly Reports
 
 To access quarterly ASC reports:
 
@@ -58,7 +58,7 @@ A typical landing page displays filters, case counts, and indicators for incompl
 
 ---
 
-## 5. Reporting Dashboard Overview
+## 1.4 Reporting Dashboard Overview
 
 The Quarterly Reporting Dashboard provides:
 
@@ -75,7 +75,7 @@ Each column is sortable, allowing you to quickly locate missing data or items re
 
 ---
 
-## 6. Key Terms
+## 1.5. Key Terms
 
 | Term | Meaning |
 |------|---------|
