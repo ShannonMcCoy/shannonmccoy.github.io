@@ -1,6 +1,5 @@
 # 📘 SurgiSource ASC Quarterly Reporting Guide  
 *Illinois Ambulatory Surgery Centers (ASC)*  
-*Modernized Technical Documentation – Portfolio Sample*
 
 ---
 
