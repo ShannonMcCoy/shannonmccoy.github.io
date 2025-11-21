@@ -25,17 +25,17 @@ DD_API_KEY=<YOUR_API_KEY> DD_SITE="datadoghq.com" bash -c \
 "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script.sh)"
 Replace <YOUR_API_KEY> with your actual API key.
 
-What this command does
+## What this command does
 
-Downloads the official install script from the vendor
+- Downloads the official install script from the vendor
 
-Installs the Agent and its dependencies
+- Installs the Agent and its dependencies
 
-Registers the Agent with your account using the API key
+- Registers the Agent with your account using the API key
 
-Starts the Agent service
+- Starts the Agent service
 
-Step 2: Verify the Agent Status
+## Step 2: Verify the Agent Status
 
 Once installation completes, verify that the Agent is running:
 
@@ -44,48 +44,44 @@ sudo datadog-agent status
 
 You should see output that includes:
 
-collector
+- collector
 
-forwarder
+- forwarder
 
-dogstatsd
+- dogstatsd
 
 If any components are marked as CRASHED or NOT RUNNING, review the log file:
 
 sudo less /var/log/datadog/agent.log
 
-Step 3: Configure Basic Tags
+## Step 3: Configure Basic Tags
 
 Tags help you group and filter metrics (for example, by environment or application).
 
-Open the main configuration file:
+1. Open the main configuration file:
 
 sudo nano /etc/datadog-agent/datadog.yaml
 
-
-Locate the tags: section and add entries such as:
+2. Locate the tags: section and add entries such as:
 
 tags:
   - env:production
   - role:web
   - region:us-east-1
 
-
-Save the file and restart the Agent:
+3. Save the file and restart the Agent:
 
 sudo systemctl restart datadog-agent
 
-Step 4: Confirm Data in the UI
+## Step 4: Confirm Data in the UI
 
 Log into your monitoring platform’s UI and:
 
-Navigate to the Infrastructure or Hosts page.
+1. Navigate to the Infrastructure or Hosts page.
+2. Confirm that your Linux host appears in the host list.
+3. Check that metrics (CPU, memory, disk, etc.) are updating in near real-time.
 
-Confirm that your Linux host appears in the host list.
-
-Check that metrics (CPU, memory, disk, etc.) are updating in near real-time.
-
-Uninstalling the Agent (Optional)
+## Uninstalling the Agent (Optional)
 
 If you need to remove the Agent:
 
@@ -96,7 +92,7 @@ Or on RHEL/CentOS:
 
 sudo yum remove datadog-agent
 
-Notes
+## Notes
 
 This document is a sample authored to demonstrate structure, clarity, and technical depth for SRE and developer audiences.
 
