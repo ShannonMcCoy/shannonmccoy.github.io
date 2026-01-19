@@ -29,7 +29,7 @@ Below are sample documentation pieces similar to the work I do in enterprise env
 
 ### 1. Developer / API Documentation
 
-- **Datadog-style Agent Install Guide (Sample)**  
+- Agent Install Guide   
   [Datadog-style Agent Install Guide (Sample)](datadog-agent-install.md)
 
 - **Sample REST API Reference**  
