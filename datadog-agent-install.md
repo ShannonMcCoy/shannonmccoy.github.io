@@ -1,4 +1,4 @@
-# Installing the Monitoring Agent on Linux (Sample Doc)
+# Installing the Monitoring Agent on Linux 
 
 This sample document demonstrates a developer-facing infrastructure documentation.  
 
